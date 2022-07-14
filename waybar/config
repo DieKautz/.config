@@ -38,7 +38,12 @@
             "2": "<span color=\"#3F84F2\"></span>",
             "3": "<span color=\"#FFFFFF\"></span>",
             "4": "<span color=\"#1DB954\"></span>",
+            "8": "<span color=\"#FFFFFF\"></span>",
+            "10": "<span color=\"#FFFFFF\"></span>",
             "urgent": "",
+        },
+        "persistent_workspaces": {
+            "5": ["DP-2"]
         }
     },
     "sway/mode": {
