@@ -1,0 +1,46 @@
+/*
+Arc-Dark Color Scheme
+*/
+
+@define-color highlight rgba(93, 112, 150, 0.9);
+@define-color bg  rgba(53, 60, 74, 0.8);
+@define-color fg  rgba(75, 81, 96, 0.6);
+@define-color border #fff;
+
+*{
+    font-family: "Cantarell";
+}
+
+window {
+    background-color: @bg;
+}
+
+#window {
+    border: 1px solid @border;
+    border-radius: 5px;
+    margin: 0px 5px 0px 5px;
+}
+
+#inner-box {
+}
+
+#outer-box {
+    margin: 5px;
+    padding:10px;
+    margin-top: -22px;
+}
+
+#text {
+    padding: 2px;
+    color: white;
+}
+
+#entry {
+    margin: 3px 0;
+    border-radius: 5px;
+}
+
+#entry:selected {
+    background-color: @highlight;
+    border: none;
+}
