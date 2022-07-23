@@ -13,7 +13,7 @@ input type:touchpad {
 input 5426:133:Razer_Razer_Basilisk_V2 {
     scroll_factor 2
     accel_profile flat
-    pointer_accel 0.25
+    pointer_accel -0.28
 }
 # Read `man 5 sway-input` for more information about this section.
 #
