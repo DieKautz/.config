@@ -1,0 +1,29 @@
+font=Roboto 12
+
+background-color=#28283Df0
+text-color=#e5e9f0
+width=350
+height=200
+padding=5
+margin=10
+progress-color=over #eceff480
+icon-path=/usr/share/icons/Arc-X-D
+max-icon-size=70
+layer=overlay
+
+border-size=2
+border-radius=6
+border-color=#d2c4e2
+
+default-timeout=3500
+
+[urgency=low]
+border-color=#ccffcc00
+
+[urgency=normal]
+border-color=#d2c4e2
+
+[urgency=high]
+border-color=#bf616a
+ignore-timeout=1
+
