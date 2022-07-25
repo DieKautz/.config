@@ -15,7 +15,7 @@ font pango:Noto Sans Regular 10
 smart_borders on
 
 # Set wallpaper:
-exec swaybg -i ~/Pictures/wallpaper/lonely-fish.png
+exec swaybg -i ~/Pictures/wallpaper/nasa--hI5dX2ObAs-unsplash.jpg
 
 # Title format for windows
 for_window [shell="xdg_shell"] title_format "%title (%app_id)"
