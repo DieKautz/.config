@@ -1,4 +1,8 @@
 #!/bin/sh
 current=$(pactl get-sink-volume @DEFAULT_SINK@ | awk 'NR==1{print $5}' | sed 's/\%//')
-[ $current -lt 100 ] && pactl set-sink-volume @DEFAULT_SINK@ +5%
-[ $current -gt 100 ] && pactl set-sink-volume @DEFAULT_SINK@ 100%
+if [ $current -gt 95 ]
+then
+    pactl set-sink-volume @DEFAULT_SINK@ 100%
+else
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+fi
